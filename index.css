@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(233, 36, 36);
+    
+    color: navy;
+}
+/*header styling*/
+
+
+header {
+    width: 100%;
+    padding: 30px 0;
+    color: navy;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header::before,
+header::after {
+    display: table;
+    content: '';
+}
+header::after {
+    clear: both;
+}
+
+/*.col-4,*/
+
+/*
+.col-4 {
+    width: 33.33%
+}
+div class="keepScore" 
+ {
+    width: 66.67%
+} 
+*/
+
+.quizTime {
+    height: 60px;
+    width: 60px;
+    color: white;
+    border: 2px solid red;
+    background-color: navy;
+    font-weight: 800;
+    line-height: 56px;
+    text-align:center;
+    border-radius: 50%;
+}
+
+.keepScore li{
+ flex-basis: calc(50% - 20px);
+/*background-color: red;*/
+text-align: right;  
+list-style: none;
+font-size: 20px;
+font-family: 'Concert One', cursive;
+}
+
+.keepQ {
+  
+  color: navy;
+  font-size: 20px;
+  font-family: 'Concert One', cursive;
+  
+  display: center;
+  
+  
+  /*line-height: 68px;
+  
+  font-weight: 800;
+  position: absolute;
+  top: 145px;
+  left: 50%;
+  margin-left: -35px;
+  z-index: 1;*/
+}
+
+/*.keepScore, .keepQ, .quizTime{
+    display: none;
+}*/
+
+header ul li {
+
+    list-style: none;
+    display: inline-flex;
+    font-size: 25px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+
+
+header ul {
+    text-align: right;
+    margin-top: 50px
+}
+
+
+.quizStart {
+    display: block;
+    text-align: center;
+    width: 50%;
+    /*margin-top: 150px;*/
+   /* background-color: white;*/
+    border-radius: 30px;
+    
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: normal;
+    
+
+   
+}
+button {
+    padding: 20px;
+    border: none;
+    background-color:navy;
+    color: #ffffff;
+    border-radius: 70%;
+    width: 30%;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 40px;
+    border: 2px solid navy;
+}
+button:hover, button:focus {
+    background-color: white;
+    color: navy;
+    border: 2px solid navy;
+}
+main div {
+    margin: 0 auto;
+    
+    
+}
+
+.questionAnswerForm {
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid navy;
+}
+/*Answe*/
+label {
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    color: navy;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+   /* line-height: 22px; */
+    border-radius: 30px;
+    
+    width: 45%;
+    
+}
+label:hover, label:focus {
+    background-color: navy;
+    color: white;
+    width: 45%;
+}
+fieldset {
+    border: none;
+}
+input {
+    border-radius: 30px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ffffff;
+    transition: 0.2s all linear;
+    outline: none;
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+input:checked {
+    border: 8px solid white;
+
+}
+input[type=radio] {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    
+}
+h2 {
+    /*text-align: left;*/
+    margin-bottom: 40px;
+    color: navy;
+    text-transform: uppercase
+}
+form button {
+    padding: 20px;
+    border: none;
+    background-color: navy;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+
+    text-align: center;
+    width: 35%;
+    
+}
+form button:hover, form button:focus {
+    background-color:white;
+    color: navy;
+    
+}
+
+
+.answer {
+    flex: 1 1 auto;
+}
+.questionAnswerForm {
+    display: none;
+    width: 50%;
+}
+
+.correctFeedback {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding-top: 40px;
+    
+    border-radius: 30px;
+}
+.correctFeedback button {
+    width: 30%;
+    border-radius: 30px;
+    border: 6px solid white;
+    
+    
+}
+.correctFeedback p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+   /*text-transform: uppercase;*/
+    margin-left: 20px;
+    margin-right: 20px
+}
+.correctFeedback span {
+    color: red;
+}
+.correctFeedback img {
+    width: 150px;
+    height: auto;
+    display: block;
+    /*border-radius: 50%;
+    background-color: white;*/
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 20px
+}
+h3 {
+    color: navy;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.results img {
+    width: 150px;
+    height: auto;
+}
+.results p:first-of-type {
+    font-size: 25px;
+    margin-bottom: 10px
+}
+.results p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 0
+}
+.restartButton {
+    margin-top: 40px
+}
+
+
+
+
+
+
+@media screen and (max-width: 1190px) {
+    .questionAnswerForm,
+    .quizStart {
+        width: 80%;
+        margin-bottom: 100px
+    }
+}
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 120px;
+        height: 120px;
+        display: block;
+        margin: auto;
+    }
+    header ul {
+        margin: 10px;
+        text-align: center
+    }
+    h1 {
+        font-size: 1.5em
+    }
+    header ul li {
+        padding: 10px;
+        font-size: 18px
+    }
+    .col-4,
+    .col-8 {
+        width: 100%
+    }
+    .quizStart {
+        width: 100%;
+        padding: 40px;
+        margin-top: 0
+    }
+    h2 {
+        font-size: 18px
+    }
+    .questionAnswerForm {
+        width: 100%;
+        padding: 20px;
+        margin-top: 0
+    }
+    label {
+        font-size: 16px;
+        padding: 15px
+    }
+    .correctFeedback img {
+        width: 100px;
+        height: auto
+    }
+    .correctFeedback p {
+        font-size: 16px;
+        margin: 0 15px
+    }
+    .results p:first-of-type {
+        font-size: 18px
+    }
+    h3 {
+        font-size: 25px
+    }
+}
