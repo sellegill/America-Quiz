@@ -9,7 +9,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(233, 36, 36);
+<<<<<<< HEAD
     padding: 20px 20px 20px 20px;
+=======
+    
+>>>>>>> 4e84af0a3c57b6117237270e585e9b8fb4d499af
     color: navy;
 }
 /*header styling*/
@@ -54,6 +58,7 @@ div class="keepScore"
     font-weight: 800;
     line-height: 56px;
     text-align:center;
+<<<<<<< HEAD
     
 }
  
@@ -67,6 +72,42 @@ line-height: 68px;
 
 }
 
+=======
+    border-radius: 50%;
+}
+
+.keepScore li{
+ flex-basis: calc(50% - 20px);
+/*background-color: red;*/
+text-align: right;  
+list-style: none;
+font-size: 20px;
+font-family: 'Concert One', cursive;
+}
+
+.keepQ {
+  
+  color: navy;
+  font-size: 20px;
+  font-family: 'Concert One', cursive;
+  
+  display: center;
+  
+  
+  /*line-height: 68px;
+  
+  font-weight: 800;
+  position: absolute;
+  top: 145px;
+  left: 50%;
+  margin-left: -35px;
+  z-index: 1;*/
+}
+
+/*.keepScore, .keepQ, .quizTime{
+    display: none;
+}*/
+>>>>>>> 4e84af0a3c57b6117237270e585e9b8fb4d499af
 
 header ul li {
 
@@ -75,7 +116,11 @@ header ul li {
     font-size: 25px;
     text-transform: uppercase;
     
+<<<<<<< HEAD
     
+=======
+    color: #000000;
+>>>>>>> 4e84af0a3c57b6117237270e585e9b8fb4d499af
 }
 
 
@@ -98,11 +143,18 @@ header ul {
 h1 {
     text-align: center;
     margin-bottom: 20px;
+<<<<<<< HEAD
     color: white;
     font-size: 2em;
     text-transform: uppercase;
     
     text-shadow:2px 2px 8px #000000;
+=======
+    color: #000000;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: normal;
+>>>>>>> 4e84af0a3c57b6117237270e585e9b8fb4d499af
     
 
    
