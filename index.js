@@ -39,9 +39,9 @@ function generateQuestion () {
 //
 //increment question number
 function changeQuestionNumber () {
-  //if (questionNumber < STORE.length) {
+
     questionNumber ++;
-  //}
+  
   $('.questionNumber').text(questionNumber+1);
 }
 
@@ -51,7 +51,6 @@ function changeScore () {
 }
 
 //start quiz
-//on startQuizButton click hide start div
 //unhide quiz form div
 function startQuiz () {
   $('.quizStart').on('click', '.startButton', function (event) {

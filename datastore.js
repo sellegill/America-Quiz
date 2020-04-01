@@ -34,14 +34,14 @@ alt: "American Flag"
     question: "Who wrote the Declaration of Independence?",
 
     answers: [
-    "Benjamin Franklin",
-    "Thomas Jefferson",
     "George Washington",
-    "John Adams", 
+    "John Adams",
+    "Benjamin Franklin",
+    "Thomas Jefferson", 
     ],
   correctAnswer: "Thomas Jefferson wrote the Declaration of Independence in 1776 after John Adams appointed him as the composer of the document.",
   icon:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_the_United_States_%281912-1959%29.svg/1280px-Flag_of_the_United_States_%281912-1959%29.svg.png",
-alt: "American Flag"
+  alt: "American Flag"
   },
 
   {
