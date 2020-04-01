@@ -117,7 +117,7 @@ function renderResults () {
   } else if (score < 7 && score >= 4) {
     $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>You tried your best!</h3><p>You got ${score} / 7</p><button class="restartButton">Restart Quiz</button></div>`);
   } else {
-    $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>Try again</h3><img src="http://memecrunch.com/meme/SLEC/president-washington-is-unimpressed/image.png" alt="George Washington is unimpressed"/><p>You got ${score} / 7</p><button class="restartButton">Restart Quiz</button></div>`);
+    $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>Try again</h3><p>You got ${score} / 7</p><button class="restartButton">Restart Quiz</button></div>`);
   }
 }
 

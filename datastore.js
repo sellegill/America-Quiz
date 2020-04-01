@@ -39,10 +39,11 @@ alt: "American Flag"
     "Benjamin Franklin",
     "Thomas Jefferson", 
     ],
-  correctAnswer: "Thomas Jefferson wrote the Declaration of Independence in 1776 after John Adams appointed him as the composer of the document.",
+  correctAnswer: "Thomas Jefferson",
   icon:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_the_United_States_%281912-1959%29.svg/1280px-Flag_of_the_United_States_%281912-1959%29.svg.png",
   alt: "American Flag"
   },
+  //wrote the Declaration of Independence in 1776 after John Adams appointed him as the composer of the document."
 
   {
     question:"How many U.S. Senators are there?",
@@ -54,11 +55,11 @@ alt: "American Flag"
       "86",
       
     ],
-  correctAnswer: "The U.S. Senate provides equal representation for all 50 states, and at 2 senators per state, there are 100 senators total.",
+  correctAnswer: "100",
   icon:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_the_United_States_%281912-1959%29.svg/1280px-Flag_of_the_United_States_%281912-1959%29.svg.png",
   alt: "American Flag"
   },
-
+//The U.S. Senate provides equal representation for all 50 states, and at 2 senators per state, there are 100 senators total.
   {
     question: "Which state was the first to secede from the Union before the start of the Civil War?",
 
@@ -94,7 +95,7 @@ alt: "American Flag"
     answers: [
    "Harry Truman",
    "Grover Cleveland",
-   "Franklin Rosevelt",
+   "Franklin Roosevelt",
    "Woodrow Wilson",  
     ],
   correctAnswer: "Franklin Roosevelt",
