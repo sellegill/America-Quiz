@@ -1,7 +1,9 @@
 let questionNumber = 0;
 let score = 0;
-
+//add value id 
+// add for attribute?
 //generate question html
+//For lable and input for ="${STORE[questionNumber].answers[0]}"(use unique)
 function generateQuestion () {
   if (questionNumber < STORE.length) {
     return `<div class="question-${questionNumber}">
@@ -34,7 +36,7 @@ function generateQuestion () {
     $('.questionNumber').text(7)
   }
 }
-
+//
 //increment question number
 function changeQuestionNumber () {
   //if (questionNumber < STORE.length) {
@@ -111,9 +113,9 @@ function updateScore () {
 
 //when quiz is over this is the html for the page
 function renderResults () {
-  if (score >= 8) {
+  if (score >= 7) {
     $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>You're a Genuis!</h3><p>You got ${score} / 7</p><button class="restartButton">Restart Quiz</button></div>`);
-  } else if (score < 8 && score >= 5) {
+  } else if (score < 7 && score >= 4) {
     $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>You tried your best!</h3><p>You got ${score} / 7</p><button class="restartButton">Restart Quiz</button></div>`);
   } else {
     $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>Try again</h3><img src="http://memecrunch.com/meme/SLEC/president-washington-is-unimpressed/image.png" alt="George Washington is unimpressed"/><p>You got ${score} / 7</p><button class="restartButton">Restart Quiz</button></div>`);
@@ -145,3 +147,12 @@ function createQuiz () {
 }
 
 $(createQuiz);
+
+
+//add padding to topHalf 
+
+//move form up from bottom of the page 
+
+//jquery you ran out of time 
+
+//timeout  possible feedback call function generateQuestion 
